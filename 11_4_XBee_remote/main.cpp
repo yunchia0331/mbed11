@@ -27,10 +27,10 @@ int main(){
    }
 
 
-   xbee.write("ATMY 0x226\r\n", 12);
+   xbee.write("ATMY 0x140\r\n", 12);
    reply_messange(xbee_reply, "0x126 : 0x226");
 
-   xbee.write("ATDL 0x126\r\n", 12); 
+   xbee.write("ATDL 0x240\r\n", 12); 
    reply_messange(xbee_reply, "0x126 : 0x126");
 
    xbee.write("ATID 0x1\r\n", 10);
